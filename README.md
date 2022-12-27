@@ -5,6 +5,8 @@
   - 运气好的话能上全局准确率93%
   - 运气不好的话会NAN……
   ![image](https://user-images.githubusercontent.com/79859933/209656161-91d7f692-79bc-4301-a11b-828b6a59bb1d.png)
+  ![image](https://user-images.githubusercontent.com/79859933/209661691-feb1e3ab-1af6-4ae6-8f03-0f518854a19d.png)
+
 
 - 原因可能：
   1. 没有使用GeLu激活函数，在模型中使用的是ReLu（GeLu函数在numpy有点难以实现，会遇上奇怪的问题）
